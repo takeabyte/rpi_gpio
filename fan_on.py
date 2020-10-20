@@ -3,4 +3,4 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setup(26, GPIO.OUT)
 GPIO.output(26, GPIO.HIGH)
 GPIO.output(26, 1)
-GPIO.cleanup() //clean
+GPIO.cleanup()
